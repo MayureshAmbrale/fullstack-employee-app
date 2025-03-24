@@ -10,9 +10,6 @@ const PostEmployee = () => {
     const updateEmployee = (e) => {
         const {name, value} = e.target;
 
-        console.log(value);
-        console.log(e);
-
         setEmployee((preEvent) => {
             return { ...preEvent, [name]: value }
         }

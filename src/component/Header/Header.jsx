@@ -11,6 +11,9 @@ const Header = () => {
                     <Nav className="ms-auto d-flex align-items-center">
                         <Nav.Link href="/">Dashboard</Nav.Link>
                         <Nav.Link href="/post">Post Employee</Nav.Link>
+                        <Nav.Link href="/getByEmail">Get Employee</Nav.Link>
+                        <Nav.Link href="/update">Update Employee</Nav.Link>
+
                     </Nav>
                 </Nav>
             </Container>
